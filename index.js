@@ -1,6 +1,5 @@
 import express from "express";
-import { connectToMongoDB, getCollectionName } from "./db.js";
-import { pipeline } from "zod/v3";
+import { getCollectionName } from "./db.js";
 
 const app = express();
 
